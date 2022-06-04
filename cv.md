@@ -30,7 +30,7 @@ Skills: React
 _Source code:_ <https://github.com/Otabekkadirov/my-todo-app>
 
 **Responsive Landing page** | <https://responsive-bootstrap-website.netlify.app/>  
-Skills: Bootstrap 4, HTML, CSS, JQuery  
+Skills: Bootstrap 4, HTML, CSS  
 _Source code:_ <https://github.com/Otabekkadirov/Responsive-Bootstrap-Website>
 
 **Movie Search page** | <https://movie-search-app-otabek.netlify.app/>  
