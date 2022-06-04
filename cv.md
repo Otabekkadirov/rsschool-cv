@@ -1,6 +1,6 @@
 # Otabek Kadirov
 
-#### CONTACTS
+### CONTACTS
 
 - Phone: **+998 90 111 15 74**
 - E-mail: **<ganijanovich94@gmail.com>**
@@ -9,13 +9,13 @@
 
 ---
 
-#### SUMMARY
+### SUMMARY
 
 I am a passionate front-end developer who is open to challenges, flexible and quick learner. With warm, empathetic, and down-to-earth approaches, I enjoy contributing to the team I work with. I have learned the required skills to be a front-end developer on my own from online courses.
 
 ---
 
-#### SKILLS
+### SKILLS
 
 **Languages:** JavaScript, TypeScript  
 **Frameworks:** Bootstrap, React  
@@ -23,7 +23,7 @@ I am a passionate front-end developer who is open to challenges, flexible and qu
 
 ---
 
-#### PROJECTS
+### PROJECTS
 
 **To-do app** | <https://reacttodomatic.netlify.app/>  
 Skills: React  
@@ -43,7 +43,7 @@ _Source code:_ <https://github.com/Otabekkadirov/react-flow-experiments>
 
 ---
 
-#### CODING EXAMPLE
+### CODING EXAMPLE
 
 <https://www.codewars.com/kata/523f5d21c841566fde000009/javascript>
 
@@ -74,7 +74,7 @@ function arrayDiff(a, b) {
 
 ---
 
-#### EDUCATION
+### EDUCATION
 
 **Pay IT Forward** : October 2020 - Present
 
@@ -91,7 +91,7 @@ function arrayDiff(a, b) {
 
 - Completed Responsive Web Design.
 
-**CS50** :
+**CS50** : January 2022
 
 - Introduction to Computer Science and Arts of Programming
 
@@ -99,7 +99,7 @@ function arrayDiff(a, b) {
 
 ---
 
-#### ENGLISH
+### ENGLISH
 
 - _Reading:_ Upper-intermediate
 - _Listening:_ Upper-intermediate
