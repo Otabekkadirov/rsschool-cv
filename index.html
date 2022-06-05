@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rsschool-cv-html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Otabek Kadirov</h1>
+
+    <h3>Contacts</h3>
+    <ul>
+        <li>Phone: <strong>+998 90 111 15 74</strong></li>
+        <li>E-mail: <strong>ganijanovich94@gmail.com</strong></li>
+        <li>Telegram: <strong><a href="https://t.me/otabekkadirov">https://t.me/otabekkadirov</a></strong></li>
+        <li>GitHub: <strong><a href="https://github.com/Otabekkadirov">https://github.com/Otabekkadirov</a></strong>
+        </li>
+    </ul>
+
+    <h3>Summary</h3>
+    <p>
+        I am an English teacher at school who is also passionate about programming. I am always open to challenges,
+        flexible and quick learner. With warm, empathetic, and down-to-earth approaches, I enjoy contributing to the
+        team I work with. I have been learning some required skills to be a front-end developer on my own from online
+        courses, such as <a href="https://www.theodinproject.com/">The Odin Project</a> and <a
+            href="https://cs50.harvard.edu/x/2022/">Harvard's CS50</a>.
+    </p>
+
+    <h3>Skills</h3>
+    <ul>
+        <li>
+            Fundamental:
+            <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Basic Terminal commands</li>
+            </ul>
+        </li>
+        <li>
+            Languages:
+            <ul>
+                <li>JavaScript/ES6</li>
+                <li>TypeScript</li>
+            </ul>
+        </li>
+        <li>
+            Frameworks:
+            <ul>
+                <li>React</li>
+                <li>Bootstrap</li>
+            </ul>
+        </li>
+        <li>
+            Soft skills:
+            <ul>
+                <li>Effective communication</li>
+                <li>Punctuality</li>
+                <li>Flexibility</li>
+                <li>Positive attitude</li>
+                <li>Memes</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Projects</h3>
+
+    <ol>
+        <li>
+            <ul>
+                <li>
+                    <h4><a href="https://reacttodomatic.netlify.app">To-do app</a></h4>
+                </li>
+                <li>Skills: React</li>
+                <li><a href="https: //github.com/Otabekkadirov/my-todo-app></li">Source code</a>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li>
+                    <h4><a href="https://responsive-bootstrap-website.netlify.app">Responsive Landing page</a></h4>
+                </li>
+                <li>Skills: Bootstrap 4, HTML, CSS</li>
+                <li><a href="https: //github.com/Otabekkadirov/Responsive-Bootstrap-Website></li">Source code</a>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li>
+                    <h4><a href="https://movie-search-app-otabek.netlify.app">Movie Search page</a></h4>
+                </li>
+                <li>Skills: React, API, Testing</li>
+                <li><a href="https: //github.com/Otabekkadirov/movie-search-app></li">Source code</a>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+                <li>
+                    <h4><a href="https://react-flow-experiment.netlify.app">Organization tree</a></h4>
+                </li>
+                <li>Skills: React, React Flow, TypeScript</li>
+                <li><a href="https: //github.com/Otabekkadirov/react-flow-experiments></li">Source code</a>
+            </ul>
+        </li>
+    </ol>
+
+    <h3>Coding Example</h3>
+    <p>
+        Your goal in <a href="https://www.codewars.com/kata/523f5d21c841566fde000009/javascript">this kata</a> is to
+        implement a difference function, which subtracts one list from another and returns
+        the result. It should remove all values from list <code>a</code>, which are present in list <code>b</code>
+        keeping their
+        order.
+
+    <p><code>arrayDiff([1,2],[1]) == [2]</code></p>
+
+
+    If a value is present in <code>b</code>, all of its occurrences must be removed from the other:
+
+    <p><code>arrayDiff([1,2,2,2,3],[2]) == [1,3]</code></p>
+
+    <h4>My solution</h4>
+    <pre>
+    function arrayDiff(a, b) {
+        b.forEach((el) => {
+          let currentIndex = a.indexOf(el);
+          while(currentIndex !== -1) {
+            a.splice(currentIndex, 1);
+            currentIndex = a.indexOf(el);
+          }
+        })
+        return a;
+      }
+    </pre>
+    </p>
+
+    <h3>Education</h3>
+    <ul>
+        <li><strong>Pay IT Forward: October 2020 - Present</strong>
+            <p>Studying with a group of very ambitious beginner learners</p>
+        </li>
+        <li><strong>Codecademy: October 2020</strong>
+            <p>Completed: HTML5 and CSS3 courses.</p>
+            <p>Completed: Introduction to JavaScript.</p>
+            <p>Completed: Bootstrap4 course.</p>
+            <p>Completed: TypeScript course.</p>
+        </li>
+        <li><strong>FreeCodeCamp: October 2020</strong>
+            <p>Completed: Responsive Web Design</p>
+        </li>
+        <li><strong>CS50: January 2022</strong>
+            <p>Completed: Introduction to Computer Science and Arts of Programming</p>
+        </li>
+        <li><strong>The Odin Project: January 2022</strong>
+            <p>Completed: Path Foundations</p>
+            <p>Ongoing: Path Full Stack JavaScript</p>
+        </li>
+        <li><strong>The Rolling Scope School: June 2022</strong>
+            <p>Completed: JS/FE Pre-school 2021</p>
+            <p>Not completed: JavaScript/Front-end 2021Q3</p>
+            <p>Completed: JS/FE Pre-school 2022Q2</p>
+        </li>
+    </ul>
+
+    <h3>English</h3>
+    <ul>
+        <li>Reading: Upper-intermediate</li>
+        <li>Listening: Upper-intermediate</li>
+        <li>Writing: Intermediate</li>
+        <li>Speaking: Intermediate</li>
+        <p>Uzbek State World Languages University. English language and literature faculty:</p>
+        <p>September 2013 - August 2017 Tashkent, Uzbekistan</p>
+
+    </ul>
+</body>
+
+</html>
