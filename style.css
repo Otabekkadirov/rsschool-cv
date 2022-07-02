@@ -148,13 +148,16 @@ aside {
   color: var(--light-blue);
 }
 .aside-section ul li a {
+  display: inline-block;
   text-decoration: none;
   color: #fff;
 }
 .aside-section ul li a:hover {
   color: var(--light-blue);
-  font-size: 1rem;
-  transition: ease-in-out 0.1s;
+  /* font-size: 1rem; */
+  transform: scale(1.3);
+  transition: ease-in-out 0.2s;
+  text-shadow: 0px 0px 25px #000;
 }
 .education h5 {
   color: var(--light-blue);
@@ -192,14 +195,16 @@ header nav ul li:not(li:last-child) {
   border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
 header nav ul li a {
+  display: inline-block;
   text-decoration: none;
   color: #fff;
   font-size: 0.8rem;
 }
 header nav ul li a:hover {
   color: var(--light-blue);
-  font-size: 1rem;
-  transition: ease-in-out 0.1s;
+  /* font-size: 1rem; */
+  transform: scale(1.2);
+  transition: ease-in-out 0.2s;
 }
 /*** End of styles for header ***/
 
